@@ -1,8 +1,13 @@
+import React from 'react';
 import Form from './Form'
 
-const Books = () => (
+const Books = (props) => (
     <>
-      <p>Boooooikkksss</p>
+      <div>
+        <h2>{props.title}</h2>
+        <p>by {props.author}</p>
+        <button>Remove</button>
+      </div>
       <Form />
     </>
   );

@@ -8,7 +8,7 @@ function App() {
     <>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Books />} />
+      <Route path="/" element={<Books title="The Hunger Games" author="Suzanne Collins" />} />
       <Route path="/categories" element={<Categories />} />
     </Routes>
     </>

@@ -13,7 +13,8 @@
   a {
     text-decoration: none;
     font-size: 1.5em;
-    color: rgb(34, 34, 34);
+    color: grey;
+    opacity: 0.5;
   }
   
   .nav ul {
@@ -24,6 +25,5 @@
   }
   
   .active {
-    color: grey;
-    opacity: 0.5;
+    opacity: 1;
   }

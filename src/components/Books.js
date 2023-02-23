@@ -1,15 +1,24 @@
 import React from 'react';
-import Form from './Form'
+import PropTypes from 'prop-types';
+import Form from './Form';
 
-const Books = (props) => (
-    <>
-      <div>
-        <h2>{props.title}</h2>
-        <p>by {props.author}</p>
-        <button>Remove</button>
-      </div>
-      <Form />
-    </>
-  );
-  
-  export default Books;
+const Books = ({ title, author }) => (
+  <>
+    <div>
+      <h2>{title}</h2>
+      <p>
+        by
+        {author}
+      </p>
+      <button type="button">Remove</button>
+    </div>
+    <Form />
+  </>
+);
+
+Books.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+};
+
+export default Books;

@@ -6,10 +6,8 @@ const Books = ({ title, author }) => (
   <>
     <div>
       <h2>{title}</h2>
-      <p>
-        by
-        {author}
-      </p>
+      <p>by</p>
+      <p>{author}</p>
       <button type="button">Remove</button>
     </div>
     <Form />

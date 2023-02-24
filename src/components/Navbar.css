@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.459);
+  padding-left: 30px;
+}
+
+.head {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: grey;
+  opacity: 0.5;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 22%;
+}
+
+.active {
+  opacity: 1;
+}

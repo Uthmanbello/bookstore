@@ -1,18 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Form from './Form';
+import bookItems from '../redux/books/bookItems';
 
-const Books = ({ title, author }) => (
-  <>
-    <div>
-      <h2>{title}</h2>
+const Books = () => {
+  return (
+    <>
+    {bookItems.map((item) => {
+      return (
+        <div>
+      <h2>{item.title}</h2>
       <p>by</p>
-      <p>{author}</p>
+      <p>{item.author}</p>
       <button type="button">Remove</button>
     </div>
+      )
+    })}
     <Form />
-  </>
-);
+    </>
+  )
+}
 
 Books.propTypes = {
   title: PropTypes.string.isRequired,

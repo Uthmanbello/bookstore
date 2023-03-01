@@ -1,8 +1,9 @@
 const Form = () => (
   <>
     <form>
-      <input type="text" placeholder="Book title" />
-      <input type="text" placeholder="Author" />
+      <input type="text" name="title" placeholder="Book title" />
+      <input type="text" name="author" placeholder="Author" />
+      <button type="button">ADD BOOK</button>
     </form>
   </>
 );

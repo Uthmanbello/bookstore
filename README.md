@@ -39,6 +39,7 @@
 -CSS
 -JavaScript
 -ReactJS
+-Redux
 
 ### Key Features <a name="key-features"></a>
 
@@ -46,6 +47,7 @@
 - **[Modules were imported/exported for the JavaScript]**
 - **[Webpack bundling was used]**
 - **[ReactJS environment was employed]**
+- **[Redux toolkit was employed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -6,11 +6,11 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-    <Navbar />
-    <Routes>
+      <Navbar />
+      <Routes>
         <Route index element={<BooksContainer />} />
         <Route path="/categories" element={<Categories />} />
-    </Routes>
+      </Routes>
     </>
   );
 }

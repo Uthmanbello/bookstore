@@ -1,15 +1,20 @@
+/* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
+
+const initialState = {
+  categories: [],
+};
 
 const categoriesSlice = createSlice({
   name: 'categories',
-  initialState: {
-    categories: [],
-    status: 'Under construction',
-  },
+  initialState,
   reducers: {
-    checkStatus: (state) => state.status,
+    checkStatus: (state) => {
+      state.categories = ['Under construction'];
+    },
   },
 });
 
 export const { checkStatus } = categoriesSlice.actions;
+
 export default categoriesSlice.reducer;

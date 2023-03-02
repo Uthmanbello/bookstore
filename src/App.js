@@ -1,5 +1,5 @@
-import { Route, Routes } from 'react-router-dom';
-import Books from './components/Books';
+import { Routes, Route } from 'react-router-dom';
+import BooksContainer from './components/BooksContainer';
 import Categories from './components/Categories';
 import Navbar from './components/Navbar';
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Books />} />
+        <Route index element={<BooksContainer />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
     </>

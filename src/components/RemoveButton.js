@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const RemoveButton = (props) => {
   const { onClick } = props;
   return (
-    <button type="button" onClick={onClick}>
+    <button type="button" className="action author-text" onClick={onClick}>
       Remove
     </button>
   );

@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
 import { fetchBooks } from '../redux/books/booksSlice';
+import './BooksContainer.css';
 
 const Books = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ const Books = () => {
 
   let content;
   if (isLoading) {
-    content = <p>Loading...</p>;
+    content = <p className="load">Loading...</p>;
   } else if (ifSucceed) {
     content = Object.keys(books).map((key) => {
       const currentBook = books[key][0];
@@ -33,8 +34,9 @@ const Books = () => {
 
   return (
     <section>
-      <h1>List of books</h1>
       <ul>{content}</ul>
+      <span className="span-form" />
+      <h4 className="add-book-heading">ADD NEW BOOK</h4>
       <Form />
     </section>
   );

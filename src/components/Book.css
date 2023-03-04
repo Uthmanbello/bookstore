@@ -1,0 +1,99 @@
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 6.25rem;
+  margin-top: 24px;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  width: 68rem;
+  height: 10.625rem;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.action-text {
+  font-size: 1.1em;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.title-text {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #121212;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.author-text {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #4386bf;
+  margin-top: -1px;
+}
+
+.action {
+  border: none;
+  background-color: #fff;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.divisor {
+  height: 18px;
+  border: 1px solid #e8e8e8;
+  margin-right: 14px;
+  margin-left: 10px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.percentage-complete {
+  display: flex;
+  flex-direction: column;
+}
+
+.percent {
+  font-size: 2.5em;
+  color: #121212;
+}
+
+.progress-bar {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 20px;
+}
+
+.completion {
+  color: #121212;
+  opacity: 0.5;
+  font-size: 1.1em;
+}
+
+.span-main {
+  height: 80px;
+  border: 1px solid #e8e8e8;
+}
+
+.chapter {
+  font-weight: 300;
+  color: #121212;
+  font-size: 1em;
+  margin-top: -12px;
+}
+
+.update-btn {
+  border: none;
+  background-color: #0290ff;
+  color: #fff;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

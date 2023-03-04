@@ -30,11 +30,12 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="add-form" onSubmit={handleSubmit}>
       <label htmlFor="title">
         <input
           type="text"
-          placeholder="title"
+          className="add-input add-title"
+          placeholder="Book title"
           name="title"
           value={formInputs.title}
           onChange={handleChange}
@@ -44,14 +45,15 @@ const Form = () => {
       <label htmlFor="author">
         <input
           type="text"
-          placeholder="author"
+          className="add-input add-author"
+          placeholder="Book author"
           name="author"
           value={formInputs.author}
           onChange={handleChange}
           required
         />
       </label>
-      <button type="submit">Add book</button>
+      <button className="update-btn add-btn" type="submit">ADD BOOK</button>
     </form>
   );
 };

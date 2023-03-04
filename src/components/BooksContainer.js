@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
 import { fetchBooks } from '../redux/books/booksSlice';
-import './BooksContainer.css'
+import './BooksContainer.css';
 
 const Books = () => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 .add-book-heading {
   font-size: 1.2em;
-  color: #888888;
+  color: #888;
   font-weight: bold;
   margin-left: 6.25rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .add-input::placeholder {
-  color: #000000;
+  color: #000;
   font-size: 1.3em;
   opacity: 0.5;
 }

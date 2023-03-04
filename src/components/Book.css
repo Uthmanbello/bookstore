@@ -8,8 +8,8 @@
   padding-left: 1.4rem;
   padding-right: 1.4rem;
   width: 72rem;
-  height: 10.625remrem;
-  background-color: #ffffff;
+  height: 10.625rem;
+  background-color: #fff;
   border: 1px solid #e8e8e8;
   border-radius: 4px;
 }
@@ -22,15 +22,13 @@
 
 .title-text {
   font-size: 1.8em;
-  font-weight: bold; 
+  font-weight: bold;
   color: #121212;
-  font-family: RobotoSlab;
   margin-top: -10px;
   margin-bottom: 0;
 }
 
 .author-text {
-  font-family: RobotoSlab;
   font-size: 1.1em;
   font-weight: 300;
   color: #4386bf;
@@ -39,7 +37,7 @@
 
 .action {
   border: none;
-  background-color: #ffffff;
+  background-color: #fff;
   padding-left: 0;
   padding-bottom: 20px;
 }
@@ -88,7 +86,7 @@
 .update-btn {
   border: none;
   background-color: #0290ff;
-  color: #ffffff;
+  color: #fff;
   height: 30px;
   border-radius: 3px;
   padding-left: 30px;

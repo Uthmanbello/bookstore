@@ -36,6 +36,7 @@ const Book = ({ id, title, author }) => {
           <span className="completion">Completed</span>
         </p>
       </div>
+      <span className="span-main"></span>
       <div>
         <p className="completion">CURRENT CHAPTER</p>
         <p className="chapter">Chapter 17</p>

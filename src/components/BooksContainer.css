@@ -5,6 +5,10 @@
   margin-left: 6.25rem;
 }
 
+.add-form {
+  margin-bottom: 120px;
+}
+
 .add-input {
   width: 20rem;
   height: 40px;
@@ -18,6 +22,10 @@
   color: #000;
   font-size: 1.3em;
   opacity: 0.5;
+}
+
+.add-title {
+  width: 38.5vw;
 }
 
 .add-author {

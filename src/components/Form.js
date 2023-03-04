@@ -30,11 +30,11 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="add-form" onSubmit={handleSubmit}>
       <label htmlFor="title">
         <input
           type="text"
-          className="add-input"
+          className="add-input add-title"
           placeholder="Book title"
           name="title"
           value={formInputs.title}

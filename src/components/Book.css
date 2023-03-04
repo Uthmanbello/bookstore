@@ -7,7 +7,7 @@
   margin-top: 24px;
   padding-left: 1.4rem;
   padding-right: 1.4rem;
-  width: 72rem;
+  width: 68rem;
   height: 10.625rem;
   background-color: #fff;
   border: 1px solid #e8e8e8;
@@ -74,6 +74,11 @@
   color: #121212;
   opacity: 0.5;
   font-size: 1.1em;
+}
+
+.span-main {
+  height: 80px;
+  border: 1px solid #e8e8e8;
 }
 
 .chapter {

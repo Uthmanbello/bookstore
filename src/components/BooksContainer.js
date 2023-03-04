@@ -35,6 +35,7 @@ const Books = () => {
   return (
     <section>
       <ul>{content}</ul>
+      <span className="span-form"></span>
       <h4 className="add-book-heading">ADD NEW BOOK</h4>
       <Form />
     </section>

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
+import RemoveButton from './RemoveButton';
 import { removeBook } from '../redux/books/booksSlice';
 
 const Book = ({ id, title, author }) => {
@@ -14,7 +15,7 @@ const Book = ({ id, title, author }) => {
       {title}
       {' by '}
       {author}
-      <button type="submit" onClick={handleRemove}>Remove</button>
+      <RemoveButton onClick={handleRemove} />
     </li>
   );
 };

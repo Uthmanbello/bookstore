@@ -53,39 +53,51 @@ const booksSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: {
-    [fetchBooks.pending]: (state) => {
-      state.isLoading = true;
-    },
-    [fetchBooks.fulfilled]: (state, action) => {
-      state.isLoading = false;
-      state.ifSucceed = true;
-      state.books = action.payload;
-    },
-    [fetchBooks.rejected]: (state) => {
-      state.isLoading = false;
-    },
-
-    [addBook.pending]: (state) => {
-      state.isLoading = true;
-    },
-    [addBook.fulfilled]: (state) => {
-      state.isLoading = false;
-      state.ifSucceed = false;
-    },
-    [addBook.rejected]: (state) => {
-      state.isLoading = false;
-    },
-
-    [removeBook.pending]: (state) => {
-      state.isLoading = true;
-    },
-    [removeBook.fulfilled]: (state) => {
-      state.isLoading = false;
-      state.ifSucceed = false;
-    },
-    [removeBook.rejected]: (state) => {
-      state.isLoading = false;
-    },
+    [fetchBooks.pending]: (state) => ({
+      ...state,
+      isLoading: true,
+    }),
+    [fetchBooks.fulfilled]: (state, action) => ({
+      ...state,
+      isLoading: false,
+      ifSucceed: true,
+      books: action.payload,
+    }),
+    [fetchBooks.rejected]: (state) => ({
+      ...state,
+      isLoading: false,
+    }),
+    [addBook.pending]: (state) => ({
+      ...state,
+      isLoading: true,
+    }),
+    [addBook.fulfilled]: (state) => ({
+      ...state,
+      isLoading: false,
+      ifSucceed: false,
+    }),
+    [addBook.rejected]: (state) => ({
+      ...state,
+      isLoading: false,
+    }),
+    [removeBook.pending]: (state) => ({
+      ...state,
+      isLoading: true,
+    }),
+    [removeBook.fulfilled]: (state) => ({
+      ...state,
+      isLoading: false,
+      ifSucceed: false,
+    }),
+    [removeBook.fulfilled]: (state) => ({
+      ...state,
+      isLoading: false,
+      ifSucceed: false,
+    }),
+    [removeBook.rejected]: (state) => ({
+      ...state,
+      isLoading: false,
+    }),
   },
 });
 

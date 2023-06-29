@@ -27,7 +27,7 @@ const Book = ({ id, title, author }) => {
           <button className="action author-text" type="button">Edit</button>
         </div>
       </div>
-      <div className="progress-container">
+      <div className="progress-container mob-none">
         <div className="progress-bar">
           <CircularProgressbar value={75} />
         </div>
@@ -37,7 +37,7 @@ const Book = ({ id, title, author }) => {
         </p>
       </div>
       <span className="span-main" />
-      <div>
+      <div className='chapter-container'>
         <p className="completion">CURRENT CHAPTER</p>
         <p className="chapter">Chapter 17</p>
         <button type="button" className="update-btn">UPDATE PROGRESS</button>

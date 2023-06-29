@@ -35,6 +35,47 @@
 .add-btn {
   height: 40px;
   margin-left: 35px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .add-book-heading {
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+
+  .add-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-title {
+    width: 50vw;
+    margin-left: 10px;
+  }
+
+  .add-author {
+    width: 50vw;
+    margin-left: 10px;
+  }
+
+  .add-input {
+    width: 80vw;
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+
+  .add-btn {
+    height: 40px;
+    margin-left: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+  }
+
+  .add-input::placeholder {
+    color: #000;
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
 }

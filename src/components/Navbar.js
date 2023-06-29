@@ -15,7 +15,7 @@ const Navbar = () => (
       </li>
       <span />
     </ul>
-    <div className="navUser"><FaUser /></div>
+    <div className="navUser mob-none"><FaUser /></div>
   </nav>
 );
 

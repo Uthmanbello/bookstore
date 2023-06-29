@@ -2,12 +2,17 @@
 
 body {
   margin: 0;
-
-  /* padding: 3rem; */
   background: #f3f4f8;
   font-family: 'Montserrat', sans-serif;
 }
 
 ul {
   list-style: none;
+}
+
+@media (max-width: 767px) {
+  ul {
+    margin: 0;
+    padding: 5px;
+  }
 }

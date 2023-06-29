@@ -45,3 +45,23 @@ a {
   color: #0090ff;
   margin-left: 27vw;
 }
+
+@media (max-width: 767px) {
+  .nav {
+    width: 97vw;
+    padding-left: 0.5em;
+  }
+
+  .head {
+    font-size: 1em;
+  }
+
+  a {
+    font-size: 0.6em;
+    letter-spacing: 1px;
+  }
+
+  .mob-none {
+    display: none;
+  }
+}
